@@ -6,7 +6,7 @@
 System.Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 2; i < number; i++) //Всегда три показателя: точка входа; условие выхода из цикла; шаг
+for (int i = 2; i < number+1; i=i+2) //Всегда три показателя: точка входа; условие выхода из цикла; шаг
 {
     System.Console.Write(i + "\t");
 }
