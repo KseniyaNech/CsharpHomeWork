@@ -6,14 +6,12 @@
 918 -> 1
 */
 
-int num = new Random().Next(100, 1000);
+Console.Clear();
 
+int num = new Random().Next(100, 1000);
 System.Console.WriteLine("Сегенерировано трехзначное число: " + num);
 
-int temp = num % 10;
+int temp = (num % 100) /10;
 
-num /= 100;
-num = num * 10 + temp;
-
-System.Console.Write("Удаляем вторую цифру: ");
-System.Console.WriteLine(num);
+System.Console.Write("Показываем вторую цифру числа: ");
+System.Console.WriteLine(temp);

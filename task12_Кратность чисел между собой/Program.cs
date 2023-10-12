@@ -6,18 +6,18 @@
 16, 4 -> кратно
 */
 
+Console.Clear();
 System.Console.WriteLine("Введите первое число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
 System.Console.WriteLine("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if(number1 == number2 * number2)
+if(number1 % number2 == 0 )
 {
-    System.Console.WriteLine("yes, the first number is the square of the second number.");
+    System.Console.WriteLine("Кратно ");
 }
 else 
 {
-    System.Console.WriteLine(number1 % number2);
-    System.Console.WriteLine("no, the first number is not the square of the second number.");
+    System.Console.WriteLine("некратно " + number1 % number2);
 }
