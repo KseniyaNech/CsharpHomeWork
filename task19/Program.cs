@@ -9,30 +9,30 @@
 234322 -> Число не пятизначное
 */
 
-/*System.Console.WriteLine("Enter number: ");
-int n = Convert.ToInt32(Console.ReadLine());
-int n1 = n / 10000;
-//System.Console.WriteLine(n1);
-int n2 = n / 1000 % 10;
-//System.Console.WriteLine(n2);
-int n4 = n / 10 % 10; 
-//System.Console.WriteLine(n4);
-int n5 = n  % 10;
-//System.Console.WriteLine(n5);
-if (n >= 10000 & n <= 99999)
-{
-    if (n1 == n5 & n2 == n4)
-    {
-        System.Console.Write("Yes");
-    }
-    else
-    System.Console.Write("No");
-}
-else
-{
-    System.Console.WriteLine("Here's not five digit!");
-}
-*/
+// System.Console.WriteLine("Enter number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int n1 = n / 10000;
+// System.Console.WriteLine(n1);
+// int n2 = n / 1000 % 10;
+// System.Console.WriteLine(n2);
+// int n4 = n / 10 % 10; 
+// System.Console.WriteLine(n4);
+// int n5 = n  % 10;
+// System.Console.WriteLine(n5);
+// if (n >= 10000 & n <= 99999)
+// {
+//     if (n1 == n5 & n2 == n4)
+//     {
+//         System.Console.Write("Yes");
+//     }
+//     else
+//     System.Console.Write("No");
+// }
+// else
+// {
+//     System.Console.WriteLine("Here's not five digit!");
+// }
+
 /*
 123 : 10 = 12 целых (3) в остатке
 12 : 10 = 1 целых (2) в остатке
@@ -71,7 +71,7 @@ if (N == revN)
     System.Console.WriteLine("Yes");
 else System.Console.WriteLine("No");
 */
-/*
+
 System.Console.WriteLine("Enter number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int revN = 0;
@@ -83,4 +83,3 @@ for (int i = N; i > 0; i /= 10)
 if (N == revN)
     System.Console.WriteLine("Yes");
 else System.Console.WriteLine("No");
-*/
