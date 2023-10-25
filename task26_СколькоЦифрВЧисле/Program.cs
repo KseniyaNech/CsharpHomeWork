@@ -6,10 +6,6 @@
 */
 
 int userNum = 689767;
-
-System.Console.WriteLine(amountOfDigits(userNum));
-
-
 int amountOfDigits(int userNum)
 {
     int count = 0;
@@ -22,3 +18,4 @@ int amountOfDigits(int userNum)
     return count;
 }
 
+System.Console.WriteLine(amountOfDigits(userNum));

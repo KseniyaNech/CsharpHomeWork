@@ -4,7 +4,7 @@
 2 -> 10
 */
 
-void InBinaryCode(int numb)
+void InBinaryCode(int numb)//это метод который должен вернуть воидовскую переменную
 {
     string result = "";
     int binary = 0;

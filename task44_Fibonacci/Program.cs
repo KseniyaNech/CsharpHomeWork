@@ -31,9 +31,6 @@
 //         }
 //     }
 
-
-
-    
 void Fibonachi(int numb)
 {
     int[] fibonachi = new int[numb + 1];
@@ -51,8 +48,6 @@ void Fibonachi(int numb)
             System.Console.Write(fibonachi[i] + " ");
         }
     }
-
-
 }
 
 Fibonachi(15);

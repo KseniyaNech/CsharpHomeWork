@@ -38,7 +38,7 @@ int[] FlipArray(int[] arr)
     {
         // [4, 9, 2, 8]
         temp = arr[i]; // [4], [9]
-        arr[i] = arr[arr.Length -1 -i]; // [8, 9, 2, 8], [8, 2, 2, 4]
+        arr[i] = arr[arr.Length -1 -i]; // [8, 9, 2, 8], [8, 2, 2, 4] //предпоследний элемент в массиве
         arr[arr.Length -1 -i] = temp; // [8, 9, 2, 4], [8, 2, 9, 4]
     }
     return arr;
