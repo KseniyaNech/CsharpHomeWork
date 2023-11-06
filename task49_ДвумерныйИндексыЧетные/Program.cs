@@ -22,7 +22,7 @@ void Print2DArray(int[,] arr)// создаем метод для печати (�
 {
     for (int i = 0; i < arr.GetLength(0); i++)//чтобы пройтись по строкам
     {
-        for (var j = 0; j < arr.GetLength(1); j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
             System.Console.Write(arr[i, j] + "\t");//вывод на экран
         }
