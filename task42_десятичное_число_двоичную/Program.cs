@@ -15,7 +15,7 @@ void InBinaryCode(int numb)//это метод который должен ве�
     }
     System.Console.Write(result);
 }
-InBinaryCode(2);
+InBinaryCode(6);
 
 
 

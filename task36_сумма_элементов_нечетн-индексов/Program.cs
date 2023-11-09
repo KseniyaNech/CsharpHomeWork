@@ -22,7 +22,7 @@ void PrintArray(int[] arr)
         Console.ForegroundColor = ConsoleColor.Cyan;
         Thread.Sleep(1);
         System.Console.Write(arr[i]);
-        if (i < arr.Length - 1)
+        if (i < arr.Length - 1)//шаг -1 означает, что последня запятая будет стоять перед последним числом
             System.Console.Write(", ");
     }
     Console.ForegroundColor = ConsoleColor.Green;

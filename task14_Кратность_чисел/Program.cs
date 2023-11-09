@@ -13,9 +13,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 7 == 0 && number % 23 == 0)
 {
-    System.Console.WriteLine("True");
+    System.Console.WriteLine("Да");
 }
 else
 {
-    System.Console.WriteLine("Fals");
+    System.Console.WriteLine("Нет");
 }

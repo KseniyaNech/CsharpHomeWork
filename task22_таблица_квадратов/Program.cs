@@ -6,7 +6,7 @@
 */
 
 System.Console.Write("Введи число: ");
-int userNumber = int.Parse(Console.ReadLine());
+int userNumber = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 1; i <= userNumber; i++)
 {

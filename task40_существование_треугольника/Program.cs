@@ -23,7 +23,7 @@ string Triangle1(int a, int b, int c)
     return result;
 }
 
-System.Console.WriteLine(Triangle1(1, 2, 3));
+System.Console.WriteLine(Triangle1(4, 4, 4));
 
 // Решение от Романа.
 // bool IsTriangle(int num1, int num2, int num3)

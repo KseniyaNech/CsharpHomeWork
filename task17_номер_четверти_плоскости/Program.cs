@@ -6,7 +6,7 @@ x=2; y=4-> 1
 x=-34; y=-30 -> 3
 */
 
-System.Console.WriteLine("Введите координаты точки. Х: "); // cw - быстрый вызов Console.WriteLine
+System.Console.WriteLine("Введите координаты точки. Х: "); 
 int userX = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите координаты точки. Y: ");
 int userY = Convert.ToInt32(Console.ReadLine());

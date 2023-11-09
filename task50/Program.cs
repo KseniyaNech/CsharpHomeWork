@@ -44,12 +44,12 @@ void Print2DArray(int[,] array)
 
 int userArrayRow = TakeEnteredNumber("Введите количестов строк:");
 int userArrayColumn = TakeEnteredNumber("Введите количестов столбцов:");
-int numberK = TakeEnteredNumber("What number to encrese? ");
+int numberK = TakeEnteredNumber("Какое число искать? ");
 int[,] user2DIndexArray = GetIndex2DArray(userArrayRow, userArrayColumn, numberK);
 
 Print2DArray(user2DIndexArray);
-int PositionX = TakeEnteredNumber("Which row to find: ");
-int PositionY = TakeEnteredNumber("Which column to find: ");
+int PositionX = TakeEnteredNumber("В какой строке искать: ");
+int PositionY = TakeEnteredNumber("В какой колонке искать: ");
 
 void FindElemnetInArray(int[,] array, int x, int y)
 {

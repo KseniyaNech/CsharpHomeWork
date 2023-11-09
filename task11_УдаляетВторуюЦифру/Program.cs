@@ -10,9 +10,9 @@ Console.Clear();
 int num = new Random().Next(100, 1000);
 System.Console.WriteLine("Сегенерировано трехзначное число: " + num);
 
-int first = num / 100;
-int last = num % 10;
-int result = first * 10 + last;
+int first = num / 100;//убирает последние 2 цифры, сохраняет первую
+int last = num % 10;//показывает 1 последнюю цифру, убирает первые две
+int result = first * 10 + last;// например: 245, 20*10=20+5=25
 
 System.Console.Write("Удаляем вторую цифру: ");
 System.Console.WriteLine(result);

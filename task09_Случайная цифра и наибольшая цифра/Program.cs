@@ -12,11 +12,11 @@ System.Console.WriteLine(number);
 int first = number / 10;
 int last = number % 10;
 
-if(first>last)
+if(first > last)
 {
     System.Console.WriteLine("первая больше");
 }
-else if(last>first)
+else if(last > first)
 {
     System.Console.WriteLine("вторая больше");
 }

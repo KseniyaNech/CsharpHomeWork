@@ -11,6 +11,6 @@ int numN = Convert.ToInt32(Console.ReadLine());
 for (int i = - numN; i <= numN; i++)
 {
     Console.Write(i);
-    if(i<numN)
+    if(i < numN)
     System.Console.Write(", ");
 }

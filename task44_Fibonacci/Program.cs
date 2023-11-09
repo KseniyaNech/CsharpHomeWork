@@ -50,7 +50,7 @@ void Fibonachi(int numb)
     }
 }
 
-Fibonachi(15);
+Fibonachi(7);
 
 
 

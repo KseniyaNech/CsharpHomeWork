@@ -24,7 +24,6 @@ void PrintArray(int[] arr)
     for (int i = 0; i < arr.Length; i++)
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Thread.Sleep(200);
         System.Console.Write(arr[i]);
         if (i < arr.Length - 1)
             System.Console.Write(", ");
@@ -72,7 +71,8 @@ int[] CreateArray(int size, int min, int max)
 void Output(int[] arr)
 {
 
-    for (int i = 0; i < arr.Length; i++) {
+    for (int i = 0; i < arr.Length; i++) 
+    {
         Console.Write(arr[i] + "\t");
     }
 }

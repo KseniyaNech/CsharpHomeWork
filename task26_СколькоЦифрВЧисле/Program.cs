@@ -5,7 +5,7 @@
 89126 -> 5
 */
 
-int userNum = 689767;
+int userNum = 68;
 int amountOfDigits(int userNum)
 {
     int count = 0;

@@ -73,7 +73,6 @@ int[] CreateArray(int size, int min, int max)
 
 void Output(int[] arr)
 {
-
     for (int i = 0; i < arr.Length; i++)
     {
         Console.Write(arr[i] + " ");

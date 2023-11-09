@@ -19,5 +19,5 @@ if(number1 % number2 == 0 )
 }
 else 
 {
-    System.Console.WriteLine("некратно " + number1 % number2);
+    System.Console.WriteLine("Некратно " + number1 % number2);
 }

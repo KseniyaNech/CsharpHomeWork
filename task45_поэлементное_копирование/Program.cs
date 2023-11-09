@@ -33,17 +33,20 @@ void PrintArray(int[] arr) //Печатает массив
 
 int[] CopyArray(int[] arr)
 {
-    int[] newArray = new int[arr.length];
+    int[] newArray = new int[arr.Length];
     for (int i = 0; i < arr.Length; i++)
     {
-        newArray = arr[i];
+        newArray[i] = arr[i];
     }
     return newArray;
 }
 
 
 int[] arrayUser = GetMassive(10); //Вывод всех методов
-PrintArray(CopyArray(arrayUser));
+PrintArray(arrayUser);
+System.Console.WriteLine();
+int[] userCopy = CopyArray(arrayUser);
+PrintArray(CopyArray(userCopy));
 
 
 // Console.Clear();

@@ -15,7 +15,6 @@ int numB = Convert.ToInt32(Console.ReadLine());
 }*/
 
 NatStep(numA, numB);
-
 void NatStep(int a, int b)
 {
     int result = 1;

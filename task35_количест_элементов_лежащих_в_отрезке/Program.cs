@@ -46,7 +46,7 @@ void FineNumbers(int[] arr)
 
 int[] ArrayF = GetRnd(12);
 PrintArray(ArrayF);
-System.Console.Write("->");
+System.Console.Write(" -> ");
 FineNumbers(ArrayF);
 
 

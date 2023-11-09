@@ -5,11 +5,7 @@
 */
 
 System.Console.Write("Введите число: ");
-
-int userNum = int.Parse(System.Console.ReadLine());
-
-System.Console.WriteLine("Факториал этого числа: " + Factorial(userNum));
-
+int userNum = Convert.ToInt32(System.Console.ReadLine());
 int Factorial(int num)
 {
     int result = 1;
@@ -17,6 +13,7 @@ int Factorial(int num)
     {
         result *= i;
     }
-    
-    num = result;
+    return result;
+
 }
+System.Console.WriteLine("Факториал этого числа: " + Factorial(userNum));

@@ -11,7 +11,7 @@ Console.Clear();
 int num = new Random().Next(100, 1000);
 System.Console.WriteLine("Сегенерировано трехзначное число: " + num);
 
-int temp = (num % 100) /10;
+int temp = (num % 100) /10;// например: 245, 245%100=45/10=4
 
 System.Console.Write("Показываем вторую цифру числа: ");
 System.Console.WriteLine(temp);

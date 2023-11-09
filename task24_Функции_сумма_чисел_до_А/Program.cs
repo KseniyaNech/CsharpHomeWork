@@ -5,10 +5,8 @@
 8 -> 36
 */
 
-int value = 4;
-
+int value = 6;
 int sum = SumOfNumberDigits(value);
-
 System.Console.WriteLine(sum);
 int SumOfNumberDigits(int num)
 {
@@ -17,6 +15,5 @@ int SumOfNumberDigits(int num)
      {
         result = result + i;
      }
-        
     return result;
 }
